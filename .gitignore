@@ -7,5 +7,5 @@ renpy-*
 persistent
 *.pyc
 __pycache__/
-
+.vscode
 game/saves/
