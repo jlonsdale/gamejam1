@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 10, in script
+    image placeholder_sad = "placeholder_sad.png"
+Exception: Images may only be declared inside init blocks.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 10, in script
+    image placeholder_sad = "placeholder_sad.png"
+  File "c:\Users\lonsd\Desktop\renpy-8.3.7-sdk\renpy\ast.py", line 937, in execute
+    renpy.exports.image(self.imgname, img)
+  File "c:\Users\lonsd\Desktop\renpy-8.3.7-sdk\renpy\exports\displayexports.py", line 68, in image
+    raise Exception("Images may only be declared inside init blocks.")
+Exception: Images may only be declared inside init blocks.
+
+Windows-10-10.0.26100 AMD64
+Ren'Py 8.3.8.25052302+nightly
+game_jam_vn 1.0
+Sun Jun  1 15:23:37 2025
