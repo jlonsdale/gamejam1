@@ -1,0 +1,11 @@
+# Ignore Ren'Py template files and folders
+renpy-*
+*.rpyc
+*.bak
+*.log
+*.saves
+persistent
+*.pyc
+__pycache__/
+
+game/saves/
